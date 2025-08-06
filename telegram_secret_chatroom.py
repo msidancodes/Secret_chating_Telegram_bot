@@ -1,4 +1,5 @@
 import random
+import os
 import string
 from telegram import Update
 from telegram.ext import (
@@ -8,8 +9,7 @@ from telegram.ext import (
     ContextTypes,
     filters,
 )
-
-TOKEN = "7995943516:AAEAhB66-wOmFMqpQrMB7Bxfv8ztzPuRJqI"
+TOKEN = os.getenv("7995943516:AAEAhB66-wOmFMqpQrMB7Bxfv8ztzPuRJqI")
 
 nicknames = {}
 rooms = {}      
