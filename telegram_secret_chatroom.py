@@ -9,7 +9,9 @@ from telegram.ext import (
     ContextTypes,
     filters,
 )
-TOKEN = os.getenv("7995943516:AAEAhB66-wOmFMqpQrMB7Bxfv8ztzPuRJqI")
+TOKEN = os.getenv("
+          7995943516:AAEAhB66-wOmFMqpQrMB7Bxfv8ztzPuRJqI
+        ")
 
 nicknames = {}
 rooms = {}      
