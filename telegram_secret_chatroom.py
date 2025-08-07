@@ -9,7 +9,7 @@ from telegram.ext import (
     ContextTypes,
     filters,
 )
-TOKEN = os.getenv("8349439002:AAHn-QPXNc4R90KV9MaPlGzwkNRQGYx1GbI")
+TOKEN=os.getenv("8349439002:AAHn-QPXNc4R90KV9MaPlGzwkNRQGYx1GbI")
 print(f"TOKEN: {TOKEN}") 
 
 nicknames = {}
